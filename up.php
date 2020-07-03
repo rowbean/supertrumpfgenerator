@@ -55,7 +55,7 @@ function validateArrays($array, $count, $type)
     else
     {
         //Check if the submitted values match the length criteria
-        $lengths = array_map('strlen', $array);
+        $lengths = array_map('mb_strlen', $array);
 
         if(max($lengths) > $maxlength || min($lengths) < $minlength)
         {
