@@ -1,0 +1,16 @@
+.jumbotron {
+    margin-bottom:0px;
+}
+
+button svg {
+    vertical-align: sub;
+}
+
+.cite {
+    font-size:0.8em;
+    color:#C0C0C0;
+}
+
+.btn-outline-secondary {
+    margin-bottom:5px;
+}
