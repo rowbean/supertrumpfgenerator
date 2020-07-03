@@ -7,8 +7,8 @@ require_once('config.php');
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Supertrumpf-Kartenspielgenerator</title>
-        <link rel="stylesheet" href="../../Desktop/cgg/css/bootstrap.min.css">
-        <link rel="stylesheet" href="../../Desktop/cgg/css/style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <meta name="theme-color" content="#563d7c">
         <script type="text/javascript">
             document.write('<style type="text/css" media="screen">header{display: none;}</style>');
@@ -60,7 +60,7 @@ require_once('config.php');
                                     <p>
                                         There can be up to <?=TITLE_MAXAMOUNT?> category names aka titles(3) and their attached values on a card, at a maximum of <?=DATASET_MAXLENGTH?> characters each.
                                     </p>
-                                    <img src="../../Desktop/cgg/img/tut_card.png" alt="tutorial sample card">
+                                    <img src="img/tut_card.png" alt="tutorial sample card">
                                 </div>
                             </div>
                             <div class="step" id="cardfields">
@@ -142,8 +142,8 @@ require_once('config.php');
             var dataset_minamount=<?=DATASET_MINAMOUNT?>;
             var dataset_maxlength=<?=DATASET_MAXLENGTH?>;
         </script>
-        <script src="../../Desktop/cgg/js/jquery-3.5.1.min.js"></script>
-        <script src="../../Desktop/cgg/js/bootstrap.bundle.min.js"></script>
-        <script src="../../Desktop/cgg/js/cgg.js"></script>
+        <script src="js/jquery-3.5.1.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/cgg.js"></script>
     </body>
 </html>
